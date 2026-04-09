@@ -209,7 +209,7 @@ const App = () => {
           {slide === 0 ? <Slide1 /> : <Slide2 />}
           
           <div className="mt-8 flex justify-between items-center pt-4 border-t border-slate-50 opacity-50">
-            <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-slate-400">Dataset: Mujeres en el Poder | Alegra 2024</span>
+            <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-slate-400">Dataset: Mujeres en el Poder | Alegra</span>
             <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-slate-400">Página {slide + 1} / 2</span>
           </div>
         </main>
